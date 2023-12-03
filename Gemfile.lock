@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    cpf_utils (0.1.0)
+    cpf_utils_dio (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -54,7 +54,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
-  cpf_utils!
+  cpf_utils_dio!
   rake (~> 13.0)
   rspec (~> 3.0)
   rubocop (~> 1.21)

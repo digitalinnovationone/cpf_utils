@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/cpf_utils/version"
+require_relative "lib/cpf_utils_dio/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "cpf_utils"
-  spec.version = CpfUtils::VERSION
+  spec.name = "cpf_utils_dio"
+  spec.version = CpfUtilsDio::VERSION
   spec.authors = ["Danilo Aparecido dos Santos"]
   spec.email = ["didox_59@yahoo.com.br"]
 
@@ -13,8 +13,8 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 2.6.0"
 
   # spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/digitalinnovationone/cpf_utils"
-  spec.metadata["changelog_uri"] = "https://github.com/digitalinnovationone/cpf_utils/blob/main/CHANGELOG.md"
+  spec.metadata["source_code_uri"] = "https://github.com/digitalinnovationone/cpf_utils_dio"
+  spec.metadata["changelog_uri"] = "https://github.com/digitalinnovationone/cpf_utils_dio/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

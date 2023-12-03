@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require_relative "cpf_utils/version"
+require_relative "cpf_utils_dio/version"
 
-module CpfUtils
+module CpfUtilsDio
   class Error < StandardError; end
  
   def self.formatar(cpf)
